@@ -1,0 +1,47 @@
+body{
+    background-image:url('registration form bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.d1{
+    background-color: rgba(0, 0, 255, 0.481);
+    width: 680px;
+    height: 570px;
+    margin-left: 423px;
+    margin-top: 66px;
+}
+.d2{
+    background-color: rgb(1, 1, 68);
+    color: white;
+    height: 94px;
+    text-align: center;
+    padding-top: 11px;
+}
+label{
+    color: white;
+}
+.input{
+    height: 38px;
+    width: 385px;
+    margin-left: 137px;
+    margin-top: 14px;
+    border-radius: 8px;
+    border: none;
+}
+.checkbox{
+     margin-left: 137px;
+    margin-top: 14px;
+}
+.checkbox1{
+     margin-left: 137px;
+    margin-top: 14px;
+}
+.checkbox3{
+    margin-left: 256px;
+    margin-top: 37px;
+    height: 39px;
+    width: 159px;
+    background-color: greenyellow;
+    border-radius: 8px;
+    border: none;
+}

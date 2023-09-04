@@ -1,0 +1,29 @@
+.avatar_pic {
+    border-radius: 60px;
+    width: 50px;
+}
+
+.d-flex i {
+    text-align: center;
+    margin-top: 17px;
+    margin-right: 16px;
+}
+
+.brand-main-pic img {
+    width: 400px;
+    text-align: center;
+}
+
+.brand-pic img {
+    width: 100px;
+    justify-content: space-between;
+}
+@media (max-width:430px) {
+    .brand-pic{
+        overflow:scroll;
+    }
+    .brand-main-pic img{
+        width: 69%;
+
+    }
+}

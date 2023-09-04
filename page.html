@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- nav bar start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#">snekers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">collection</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Men</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Women</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <i class="fa-solid fa-cart-shopping "></i>
+                    <a href="registration task.html"> <img class="avatar_pic"
+                            src="data:image/jpeg;base64,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"
+                            alt=""></a>
+                </form>
+            </div>
+    </nav>
+    <!-- nav bar end -->
+
+    <!-- main con start -->
+    <!-- left side start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 ">
+                <div class="brand-main-pic mt-3">
+                    <img src="https://imagescdn.thecollective.in/img/app/brands/tc/minibanner/mensshoes_CASUALSHOES.jpg?auto=format"
+                        alt="">
+                </div>
+                <div class="brand-pic d-flex mt-4 ">
+                    <img src="https://imagescdn.thecollective.in/img/app/brands/tc/minibanner/mensshoes_CASUALSHOES.jpg?auto=format"
+                        alt="">
+                    <img src="https://imagescdn.thecollective.in/img/app/brands/tc/minibanner/mensshoes_CASUALSHOES.jpg?auto=format"
+                        alt="">
+                    <img src="https://imagescdn.thecollective.in/img/app/brands/tc/minibanner/mensshoes_CASUALSHOES.jpg?auto=format"
+                        alt="">
+                    <img src="https://imagescdn.thecollective.in/img/app/brands/tc/minibanner/mensshoes_CASUALSHOES.jpg?auto=format"
+                        alt="">
+                </div>
+            </div>
+            <!-- left side end -->
+            <!-- right side start -->
+            <div class="col-12 col-lg-6">
+                <div style="margin-top: 125px;">
+                    <p>
+                        SNEKERS COMPANY
+                    </p>
+                    <h1>
+                        Nike Limited Edition Sneakers
+                    </h1>
+                    <p>
+                        These low-profile sneakers are your perfect casual wear companion Featuring a durable rubber
+                        outer sale, they' withstand everything the weather can offer.
+                    </p>
+                    <h1>
+                        $125.00
+                        <span
+                            style="background-color: rgba(255, 166, 0, 0.781) colo; color: orange; font-size: medium;">50%</span>
+                    </h1>
+                    <P style="text-decoration: line-through;">
+                        $250.00
+                    </P>
+                    <p>
+                        <span style="color: orange; font-size: 42px;">-</span>
+                        <span style="font-size: 43px;">0</span>
+                        <span style="color: orange; font-size: 42px;">+</span>
+                        <button style="background-color: orange; color: white; border: none; border-radius: 7px; width: 141px; height: 43px; margin-left: 14px;padding-top: 18px;">Add to cart</button>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- right side end -->
+    <!-- main con end -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
